@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bodysection{
+    margin: 0px 40px;
+}
+.bodysection .paragrap1{ 
+    width: 60%;
+    margin: 10px auto;
+    font-size: 15px;
+}
+.bodysection .heading{
+    margin: 10px 0px;
+}
+.bodysection .contentbody1 .col{
+border: 10px solid white;
+background-color: whitesmoke;
+padding: 20px 0px;
+}
+.bodysection .contentbody1 .col h1{
+    font-size: 25px;
+    margin:5px 10px;
+}
+.bodysection .contentbody1 .col p{
+    font-size: 9px;
+    text-align: left;
+    margin:5px 10px;
+}
+.bodysection .contentbody1 .col a{
+    font-size: 15px;
+    text-decoration: none;
+    margin:10px 10px;
+}
+.bodysection .contentbody1 .col a i{
+    margin-left: 30px;
+    font-size: 15px;
+}
+.contentbody2                                   {
+    background-color: #1A73E8;
+    border-radius: 4px;
+    color: #FFFF;
+    margin: 60px 0px;
+    padding: 10px 30px;
+    }
+.contentbody2 p{
+font-size: 25px;
+}
+.contentbody2 button{
+    color: #1A73E8;
+    font-size: 10px;
+    height: 40px;
+}
+.contentbody3{
+    background-color: #D1E3FA ;
+ padding: 80px 40px 0px 40px;
+}
+.contentbody3 .part1 h3{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 30px;
+}
+.contentbody3 .part1 p{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 120px;
+}
+
+.contentbody3 .part1 img{
+    width: 100%;
+}
+.contentbody3 .part2 div {
+    margin-bottom: 40px;
+}
+.contentbody3 .part2 div h1{
+    color:#1A73E8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.contentbody3 .part2 div h4{
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+.contentbody3 .part2 div p{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* media query  */
+@media screen and (max-width: 540px) {
+    .bodysection .paragrap1{ 
+        width: 100%;
+        margin: none;
+        font-size: 10px;
+    }
+    .bodysection .contentbody1 .col{
+        text-align: center;
+        }
+    .bodysection .contentbody1 .col p{
+        text-align: center;
+        }
+    .contentbody2 p{
+        font-size: 15px;
+        text-align: center;
+        }
+        .contentbody3 .part2 div h1{
+            margin-top: 60px;
+        }
+  } 
