@@ -124,6 +124,17 @@ font-size: 25px;
       /* muslimah style ending  */
       .topnav a{
         float: right;
+        margin: 8px;
+       }
+       .topnav button{
+        float: right;
+        background-color: #D1E3FA;
+         color: blue;
+         border: none;
+         margin: 5px 2px;
+         padding: 10px;
+         display: inline-block;
+         border-radius: 7px;
        }
        .text{
         display: flex;
@@ -166,15 +177,20 @@ font-size: 25px;
        
        a:hover {
         text-decoration: underline;
+        text-decoration-line: underline;
        }
        
        a:active {
         text-decoration: underline;
+        text-decoration-line: underline;
        }
        .section1{
         display: flex;
          flex-direction: row;
          background-color:#D1E3FA;
+         margin-left: 20px;
+         margin-bottom: 70px;
+         
          ;
        }
        .section1 div h1{ 
@@ -187,7 +203,7 @@ font-size: 25px;
          background-color: blue;
          color: azure;
          border: none;
-         margin: 4px 2px;
+         margin: 2px 20px;
          padding: 10px;
          display: inline-block;
          border-radius: 8px;
@@ -253,4 +269,5 @@ font-size: 25px;
        }
        }
        /* <!-- muslimah style ending --> */
+       /* hello */
 
