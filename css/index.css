@@ -102,6 +102,9 @@ font-size: 25px;
     .bodysection .contentbody1 .col p{
         text-align: center;
         }
+    .bodysection .contentbody1 .col h1{
+        text-align: center;
+        }
     .contentbody2 p{
         font-size: 15px;
         text-align: center;
