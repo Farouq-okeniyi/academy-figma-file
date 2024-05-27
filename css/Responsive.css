@@ -1,0 +1,14 @@
+@media screen and (max-width:799px){
+    .main-right{
+        background-color: white;
+        color: black;
+        padding: 0 5px;
+    }
+    .section{
+        max-width: 1200px;
+        display: flex;
+        border-radius: 1em;
+        margin-top: 2em;
+    }
+    }
+

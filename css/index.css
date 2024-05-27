@@ -1,4 +1,6 @@
 
+@media screen and (min-width:400px){
+    
 *{
     margin: 0px;
     padding: 0px;
@@ -125,6 +127,11 @@ font-size: 25px;
         float: right;
         margin: 8px;
        }
+       .topnav select{
+        float: right;
+        margin: 8px;
+        border: none;
+       }
        .topnav button{
         float: right;
         background-color: #D1E3FA;
@@ -132,7 +139,7 @@ font-size: 25px;
          border: none;
          margin: 5px 2px;
          padding: 10px;
-         display: inline-block;
+         display: block;
          border-radius: 7px;
        }
        .text{
@@ -266,7 +273,5 @@ font-size: 25px;
          display: table;
          clear: both;
        }
-       }
-       /* <!-- muslimah style ending --> */
-       /* hello */
-
+    }
+}
