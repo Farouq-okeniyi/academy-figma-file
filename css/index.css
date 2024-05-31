@@ -478,13 +478,9 @@ margin-top: -4px;
          clear: both;
        }
     }
-<<<<<<< HEAD
-/* } 
-=======
 }
 @media screen and (width:760px) {
     *{
         flex-direction: column;
     }
 }
->>>>>>> 73ba1f2 (Renew)
