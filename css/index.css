@@ -3,7 +3,8 @@
     
 *{
     margin: 0px;
-    padding: 0px;
+    padding: auto;
+
 }
 .bodysection{
     margin: 0px 40px;
@@ -209,6 +210,7 @@ margin-top: -4px;
 }
 
 /* media query  */
+<<<<<<< HEAD
 @media screen and (max-width: 1050px){
     .lpart1 h1{
         font-size: 20px;
@@ -223,6 +225,10 @@ margin-top: -4px;
         width: 23px;
     height: 23px;
     }
+=======
+.body{
+    width: 40%;
+>>>>>>> 73ba1f2 (Renew)
 }
 @media screen and (max-width: 740px) {
     .bodysection .paragrap1{ 
@@ -342,6 +348,7 @@ margin-top: -4px;
         display: flex;
         float: right;
         flex: content;
+        width: 40%;
        }
        /* unvisited link */
        div a:link{
@@ -392,14 +399,14 @@ margin-top: -4px;
          background-color:#D1E3FA;
          margin-left: 20px;
          margin-bottom: 70px;
-         
-         ;
+         box-sizing: content-box;
        }
        .section1 div h1{ 
         margin: 20px;
        }
        .section1 div p{
         margin: 20px;
+
        }
        .section1 div button{
          background-color: blue;
@@ -418,6 +425,7 @@ margin-top: -4px;
        }
        .section2 div h2{
         text-align: center;
+        justify-content: center;
        }
        .section2 div p{
         text-align: center;
@@ -457,7 +465,7 @@ margin-top: -4px;
        /* Create two equal columns that floats next to each other */
        .column {
          float: left;
-         width: 50%;
+         width: 40%;
          padding: 10px;
          height: 300px;
           /* Should be removed. Only for demonstration */
@@ -470,4 +478,13 @@ margin-top: -4px;
          clear: both;
        }
     }
+<<<<<<< HEAD
 /* } 
+=======
+}
+@media screen and (width:760px) {
+    *{
+        flex-direction: column;
+    }
+}
+>>>>>>> 73ba1f2 (Renew)
